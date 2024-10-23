@@ -37,7 +37,7 @@ stdenv.mkDerivation rec {
 
   src = fetchurl {
     url = "file://root/gpgme.tar.bz2";
-    hash = "sha256-d25dd30c2db495512314eaf39031d1715c9d9424fb1cd571e9181e4fff426910";
+    hash = "sha256-ZDI1ZGQzMGMyZGI0OTU1MTIzMTRlYWYzOTAzMWQxNzE1YzlkOTQyNGZiMWNkNTcxZTkxODFlNGZmZjQyNjkxMAo=";
   };
 
   patches = [
