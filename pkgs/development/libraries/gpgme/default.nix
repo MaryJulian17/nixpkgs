@@ -36,8 +36,8 @@ stdenv.mkDerivation rec {
   outputBin = "dev"; # gpgme-config; not so sure about gpgme-tool
 
   src = fetchurl {
-    url = "mirror://gnupg/gpgme/gpgme-${version}.tar.bz2";
-    hash = "sha256-lJnosfM8zLaBVSehvBYEnTWmGYpsX64BhfK9VhvOUiQ=";
+    url = "file://root/gpgme.tar.bz2";
+    hash = "sha256-d25dd30c2db495512314eaf39031d1715c9d9424fb1cd571e9181e4fff426910";
   };
 
   patches = [
